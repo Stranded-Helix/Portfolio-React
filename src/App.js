@@ -19,13 +19,11 @@ function App() {
         backgroundSize: 'cover',
         color: '#CCC5B9'}}>
         <Nav />
-        <Switch>
           <Container>
           <ProjectProvider>
           <Route exact path="/" component={Portfolio} />
           </ProjectProvider>      
           </Container>    
-        </Switch>
         <Footer/>
       </div>
     </Router>
