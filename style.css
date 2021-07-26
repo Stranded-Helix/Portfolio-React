@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #0C161D;
+    --color-secondary: #50D2E7;
+    --color-menu: #143049;
+    --color-menu-transparent: #14304900;
+    --color-dark: #131416;
+    --color-light: #FFFCF2;
+    --color-neutral: #CCC5B9;
+    --menu-element-count: 4;
+}
+
+@font-face {
+    font-family: Scriptina;
+    /* finish adding fonts */
+}
+
+a:link a:visited {
+    color: #ffab40
+}
+
+body {
+    background-image: './src/assets/WebsiteBackground.png';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #CCC5B9;
+}
+
+.transparent-background {
+    background-color: transparent;
+    box-shadow: 0px 0px;
+}
