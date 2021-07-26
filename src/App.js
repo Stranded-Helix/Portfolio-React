@@ -19,7 +19,7 @@ function App() {
         <Nav />
           <Container>
           <ProjectProvider>
-          <Route exact path="/" component={Portfolio} />
+          <Portfolio/>
           </ProjectProvider>      
           </Container>    
         <Footer/>
