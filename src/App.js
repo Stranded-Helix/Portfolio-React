@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/NavBar";
 import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
@@ -11,7 +10,6 @@ import background from '../src/assets/WebsiteBackground.png'
 
 function App() {
   return (
-    <Router>
       <div style={
         {backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',
@@ -26,7 +24,6 @@ function App() {
           </Container>    
         <Footer/>
       </div>
-    </Router>
   );
 }
 
